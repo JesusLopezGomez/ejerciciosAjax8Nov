@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(235, 225, 233);
+
+}
+
+.seleccionado{
+    background-color: gainsboro;
+}
+
+#listaMunicipio{
+    list-style: none;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10px);
+    width: 450px;
+    border-radius: 8px;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    background-color: beige;
+}
+
+.title{
+    margin-top: 1%;
+}

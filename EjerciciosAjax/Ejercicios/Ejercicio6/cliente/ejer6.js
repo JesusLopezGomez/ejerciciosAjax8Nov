@@ -1,10 +1,11 @@
 let municipio = document.getElementById("municipio");
 let containerDiv = document.getElementById("containerList");
 
-municipio.addEventListener("keyup",() => {
+municipio.addEventListener("keyup",(event) => {
     if(municipio.value){
         autoCompleta(municipio.value);
     }
+    console.log(event.key);
 })
 
 async function autoCompleta(letra){
@@ -32,5 +33,3 @@ async function autoCompleta(letra){
         ul.appendChild(li);
     });
 }
-
-

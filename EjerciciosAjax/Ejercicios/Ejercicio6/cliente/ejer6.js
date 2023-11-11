@@ -5,6 +5,8 @@ let cache = {};
 municipio.addEventListener("keyup",(event) => {
     if(municipio.value){
         autoCompleta(municipio.value,event.key);
+    }else{
+        containerDiv.innerHTML ="";
     }
 })
 
